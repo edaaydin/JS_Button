@@ -1,2 +1,2 @@
 # JS_Button
-Buton uzerindeki sayıların arttırmasını ve azaltmasını yapan js kodu.
+Arttırma ve azaltma butonlarına basıldıkca yeşil renkli box'ın uzerindeki sayilari arttirma yada azaltma
