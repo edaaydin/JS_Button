@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <h4>Arttırma ve azaltma butonlarına basıldıkca yeşil renkli box'ın uzerindeki sayilari arttiriniz yada azaltınız. -->
+        </h4>
+        <input type="button" style="background-color:  red;" value="-" onclick="Azalt()">
+        <input type="button" style="background-color:  green;" value="0" id="sonuc">
+        <input type="button" style="background-color:  blue;" value="+" onclick="Arttir()">
+    </div>
+
+    <script>
+        var sonuc = document.getElementById("sonuc");
+        var sayi = 0;
+
+        function Arttir() {
+            sayi++;
+            sonuc.value = sayi;
+        }
+
+        function Azalt() {
+            sayi--;
+            sonuc.value = sayi;
+        }
+    </script>
+
+</body>
+
+</html>
